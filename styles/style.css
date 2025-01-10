@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #F5F5F5;
+}
+.body-bg {
+    background-color: #F5F5F5;
+    margin: 0px 90px;
+}
+/** shared **/
+
+
+
+/** header site **/
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+}
+.nav-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+nav button{
+    font-weight: 700px;
+    padding: 6px 12px 6px 12px;
+    color: #006A50;
+    border: 1px solid green;
+    border-radius: 4px;
+}
+nav button:hover{
+    background-color: rgb(242, 252, 240);
+}
+
+/** banner **/
+.banner-details{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    margin: 15px;
+}
+.banner-content{
+    padding-right: 120px;
+    padding-left: 60px;
+    padding-top: 90px;
+    padding-bottom: 70px;   
+}
+.banner-title{
+    font-weight: 700;
+    opacity: 30%;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.banner-description{
+    font-weight: 900;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.banner-button{
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+    border-radius: 7px;
+    padding: 13px 30px;
+    font-weight: 600;
+}
+.banner-button:hover{
+    background-color: rgb(107, 129, 102);
+}
+
+.banner-img{
+    padding: 40px 50px 40px 50px;
+}
+.banner-img img{
+    width: 350px;
+}
+
+
+
+/** main site **/
+
+
+
+
+
+
+
+
+
+
+
+
+/** footer site **/
+footer{
+    background-color: #ffffff;
+}
+.footer-title{
+    font-weight: bold;
+    text-align: center;
+    color: #0E0E0E;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.footer-logo{
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+}
+.footer-horizontal-line{
+    font-weight: 1px;
+    color: rgba(14, 14, 14, 0.1);
+    opacity: 20%;
+}
+.footer-img{
+    padding-top: 20px;
+    padding-right: 10px;
+}

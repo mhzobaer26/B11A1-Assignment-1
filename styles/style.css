@@ -170,6 +170,22 @@ nav button:hover {
     background-color: #ffb404;
 }
 
+/* Quote Section */
+.quote-section{
+    background-color: #ffffff;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+    border-radius: 12px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+}
+.quote-description{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #757575;
+}
+
 /* recent news */
 .recent-news {
     padding: 30px 0px 20px 0px;

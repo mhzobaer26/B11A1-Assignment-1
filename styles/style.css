@@ -100,8 +100,37 @@ nav button:hover {
 }
 
 
-
 /** main site **/
+/* Pillars of "Bangladesh 2.0" */
+.piller-section {
+    margin: 20px 0px 30px 0px;
+}
+
+.piller-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.piller {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0px 30px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(233, 230, 230);
+}
+
+.piller-heading {
+    font-weight: 700px;
+}
+
+.piller-description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    color: #757575;
+}
+
 /* the vision of container */
 .vision-container {
     display: flex;
@@ -171,7 +200,7 @@ nav button:hover {
 }
 
 /* Quote Section */
-.quote-section{
+.quote-section {
     background-color: #ffffff;
     margin: 20px 0px 20px 0px;
     padding: 20px 0px 20px 0px;
@@ -179,11 +208,38 @@ nav button:hover {
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
 }
-.quote-description{
+
+.quote-description {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 14px;
     color: #757575;
+}
+
+/* opinion Section */
+.opinion-container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.opinion {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid rgb(233, 230, 230);
+    font-weight: bold;
+    font-size: 10px
+}
+
+.opinion-bg {
+    background-color: #C6E4D6;
+}
+
+.opinion-option {
+    padding: 10px;
+    border: 1px solid rgb(233, 230, 230);
 }
 
 /* recent news */
